@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {
+	position: fixed;
+	background-color: #272727;
+	background-image: url("bg.png");
+	background-size: cover;
+	overflow: auto;
+	background-repeat: no-repeat;
+}
+body.title {
+	display: flex;
+	font-family: "Verdana", serif;
+	width: 1vw;
+	height: 1vh;
+}
+
+
+p {
+	color: #ffffff;
+}
+
+p.prompt {
+	text-align: center;
+	justify-content: center;
+	width: 99vw;
+	height: 1vh;
+}
+
+p.title {
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	font-size: 120px;
+}
+
+p.name {
+	text-align: center;
+	position: relative;
+	bottom: 50vh;
+	left: 50rem;
+	font-size: 45px;
+}
+
+p.sub {
+	text-align: center;
+	font-size: 45px;
+	position: relative;
+}
+
+p.menu {
+	border-style: solid;
+}
+
+p.text {
+	text-align: center;
+	position: relative;
+	font-size: 45px;
+	width: 98vw;
+}
+
+p.bio {
+	position: relative;
+	font-size: 45px;
+	height: 65vh;
+	width: 30vw;
+}
+
+a {
+	color: #da81ec;
+	text-decoration: underline;
+
+}
+a.link {
+	font-size: 68px;
+	position: relative;
+	top: 2em;
+}
+
+a.bioLink {
+	text-align: center;
+	font-size: 100px;
+	top: 2em;
+}
+
+a.menu {
+	font-size: 32px;
+	text-align: center;
+}
+
